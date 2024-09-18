@@ -1,16 +1,87 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(204, 204, 204)
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center
+        }
+
+        ul li {
+            list-style-type: none
+        }
+
+        li a {
+            text-decoration-line: none
+        }
+
+        ul {
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+
+        }
+
+        .player_one{
+            border: 2px solid black;
+            background-color: white;
+            border-radius: 5px;
+            margin: 20px;
+           text-align: center;
+        }
+
+           video{
+            width: 650px;
+            
+        }
+        audio{
+            width: 650px;
+        }
+        
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <section>
+        <h1>My Playlist</h1>
 
+        <div>
+            <ul>
+                <li><a href="http://#song 1" target="_blank">Song 1</a></li>
+                <li><a href="http://#song 2" target="_blank">Song 2</a></li>
+                <li><a href="http://#song 3" target="_blank">Song 3</a></li>
+                <li><a href="http://#song 4" target="_blank">Song 4</a></li>
+                <li><a href="http://#song 5" target="_blank">Song 5</a></li>
+            </ul>
+        </div>
+
+        <h2>Now Playing...</h2>
+
+        <div class="player_one">
+        <video class="player_one" src="https://www.w3schools.com/tags/movie.mp4
+            " controls></video>
+
+        <h2>MP3 songs</h2>
+        <audio class="player_two" src="https://www.pagalworld.com.se/files/download/id/64630
+            " controls></audio>
+
+        </div>
+
+
+    </section>
 </body>
 
 </html>
